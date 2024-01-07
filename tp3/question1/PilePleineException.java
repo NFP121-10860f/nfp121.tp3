@@ -1,10 +1,8 @@
 package question1;
 
-/**
- * Décrivez votre classe PilePleineException ici.
- * 
- * @author (votre nom)
- * @version (un numéro de version ou une date)
- */
 public class PilePleineException extends Exception {
+    
+    public PilePleineException() {
+        System.out.println("la pile est pleine");
+    }
 }
